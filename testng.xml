@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="LoginSuite">
+    <!-- Parallel attribute can be set to methods, classes, or tests for parallel execution -->
+    <test name="LoginTest">
+        <classes>
+            <!-- Replace with the fully qualified name of your test class -->
+            <class name="Login"/>
+        </classes>
+    </test>
+</suite>
